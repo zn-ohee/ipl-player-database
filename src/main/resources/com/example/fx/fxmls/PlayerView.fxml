@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane fx:id="basePane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #3c5a73;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fx.controllers.PlayerViewController">
+   <stylesheets>
+      <URL value="@../css/style.css" />
+   </stylesheets>
+   <children>
+      <Label alignment="CENTER" layoutX="203.0" layoutY="30.0" prefHeight="64.0" prefWidth="393.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 28px; -fx-font-family: 'Arial Black'; -fx-font-weight: bold;" styleClass="labelWithShadow" text="PLAYER INFORMATION" />
+      <Label fx:id="nameLabel" layoutX="110.0" layoutY="120.0" prefHeight="35.0" prefWidth="520.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 20px; -fx-font-family: Arial;" styleClass="labelWithShadow" text="Name: " />
+      <Label fx:id="countryLabel" layoutX="110.0" layoutY="170.0" prefHeight="35.0" prefWidth="520.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 20px; -fx-font-family: Arial;" styleClass="labelWithShadow" text="Country: " />
+      <Label fx:id="ageLabel" layoutX="110.0" layoutY="220.0" prefHeight="35.0" prefWidth="520.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 20px; -fx-font-family: Arial;" styleClass="labelWithShadow" text="Age: " />
+      <Label fx:id="heightLabel" layoutX="110.0" layoutY="270.0" prefHeight="35.0" prefWidth="520.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 20px; -fx-font-family: Arial;" styleClass="labelWithShadow" text="Height: " />
+      <Label fx:id="clubLabel" layoutX="110.0" layoutY="320.0" prefHeight="35.0" prefWidth="520.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 20px; -fx-font-family: Arial;" styleClass="labelWithShadow" text="Club: " />
+      <Label fx:id="positionLabel" layoutX="110.0" layoutY="370.0" prefHeight="35.0" prefWidth="520.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 20px; -fx-font-family: Arial;" styleClass="labelWithShadow" text="Position: " />
+      <Label fx:id="numberLabel" layoutX="110.0" layoutY="420.0" prefHeight="35.0" prefWidth="520.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 20px; -fx-font-family: Arial;" styleClass="labelWithShadow" text="Jersey Number: " />
+      <Label fx:id="salaryLabel" layoutX="110.0" layoutY="470.0" prefHeight="35.0" prefWidth="520.0" style="-fx-text-fill: #ecf0f1; -fx-font-size: 20px; -fx-font-family: Arial;" styleClass="labelWithShadow" text="Weekly Salary: " />
+      <StackPane layoutX="675.0" layoutY="25.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <ImageView fx:id="logoImageView" fitHeight="85.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true" style="-fx-alignment: CENTER;" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="500.0" layoutY="130.0" prefHeight="210.0" prefWidth="210.0">
+         <children>
+      
+            <ImageView fx:id="playerImageView" fitHeight="200.0" fitWidth="200.0" preserveRatio="true" style="-fx-alignment: CENTER;" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="500.0" layoutY="360.0" prefHeight="135.0" prefWidth="210.0">
+         <children>
+            <ImageView fx:id="flagImageView" fitHeight="125.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" style="-fx-alignment: CENTER;" />
+         </children>
+      </StackPane>
+
+   </children>
+</AnchorPane>

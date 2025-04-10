@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fx.controllers.AddPlayerMenuController">
+
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="538.0" layoutY="39.0" prefHeight="66.0" prefWidth="223.0" text="Adding New Player" textAlignment="CENTER">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutY="-1.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="40.0" prefWidth="60.0" text="Back">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font></Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="414.0" layoutY="105.0" prefHeight="31.0" prefWidth="43.0" text="Name">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font>
+      </Label>
+      <TextField fx:id="inputName" layoutX="467.0" layoutY="105.0" onAction="#onAddPlayerClick" prefHeight="31.0" prefWidth="365.0" promptText="Enter player name" />
+      <TextField fx:id="inputCountry" layoutX="467.0" layoutY="145.0" onAction="#onAddPlayerClick" prefHeight="31.0" prefWidth="365.0" promptText="Country" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="403.0" layoutY="145.0" prefHeight="31.0" prefWidth="53.0" text="Country">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="425.0" layoutY="185.0" prefHeight="31.0" prefWidth="27.0" text="Age">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font>
+      </Label>
+      <TextField fx:id="inputAge" layoutX="467.0" layoutY="185.0" onAction="#onAddPlayerClick" prefHeight="31.0" prefWidth="365.0" promptText="Age (in years)" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="406.0" layoutY="225.0" prefHeight="31.0" prefWidth="53.0" text="Height">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font>
+      </Label>
+      <TextField fx:id="inputHeight" layoutX="467.0" layoutY="225.0" onAction="#onAddPlayerClick" prefHeight="31.0" prefWidth="365.0" promptText="Height (in meters)" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="419.0" layoutY="265.0" prefHeight="31.0" prefWidth="34.0" text="Club">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font>
+      </Label>
+      <TextField fx:id="inputClub" layoutX="467.0" layoutY="265.0" onAction="#onAddPlayerClick" prefHeight="31.0" prefWidth="365.0" promptText="Club" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="403.0" layoutY="305.0" prefHeight="31.0" prefWidth="53.0" text="Position">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font>
+      </Label>
+      <TextField fx:id="inputPosition" layoutX="467.0" layoutY="305.0" onAction="#onAddPlayerClick" prefHeight="31.0" prefWidth="365.0" promptText="Position" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="355.0" layoutY="345.0" prefHeight="31.0" prefWidth="101.0" text="Jersey Number">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font>
+      </Label>
+      <TextField fx:id="inputNumber" layoutX="467.0" layoutY="345.0" onAction="#onAddPlayerClick" prefHeight="31.0" prefWidth="365.0" promptText="N/A if doesn't exist" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="369.0" layoutY="384.0" prefHeight="31.0" prefWidth="90.0" text="Salary (USD)">
+         <font>
+            <Font name="Arial" size="14.666666984558105" />
+         </font>
+      </Label>
+      <TextField fx:id="inputSalary" layoutX="467.0" layoutY="384.0" onAction="#onAddPlayerClick" prefHeight="31.0" prefWidth="365.0" promptText="Weekly Salary" />
+      <Button fx:id="addPlayerButton" layoutX="580.0" layoutY="433.0" mnemonicParsing="false" onAction="#onAddPlayerClick" prefHeight="52.0" prefWidth="139.0" text="Add Player">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Button>
+    </children>
+
+</AnchorPane>
