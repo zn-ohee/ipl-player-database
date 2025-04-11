@@ -23,11 +23,10 @@
 - Built using JavaFX
 - Clean and intuitive interface for easy navigation and control
 
-### 🛠️ Technologies Used
-- Java
-- JavaFX
-- Socket Programming (Networking)
-- Object Serialization (for data storage and communication)
+### 🛠️ Technical Details
+- **Platform**: JavaFX  
+- **Backend**: Java Networking (server-based architecture)  
+- **Database**: Player data is read from `.txt` files
 
 ##
 
