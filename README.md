@@ -1,6 +1,6 @@
 # IPL Player Database
 
-**IPL Player Database** is a JavaFX-based desktop application designed to help IPL club managers manage their players efficiently. It allows clubs to search for players, view statistics, and conduct player transfers using networking, all through an intuitive and responsive UI.
+**IPL Player Database** is a JavaFX-based desktop application designed to help IPL club managers manage their players efficiently. It allows clubs to search for players, view statistics, and conduct player transfers using networking, all through a clean and intuitive UI.
 ##
 ## 🌟 Features
 
